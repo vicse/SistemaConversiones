@@ -18,15 +18,6 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-    @IBAction func convertir(_ sender: Any) {
-        
-        let uni = Int16(txtUnidades.text!)!
-        
-        respuesta.text = String(uni*2)
-        
-        
-    }
     
 }
 

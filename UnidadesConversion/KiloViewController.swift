@@ -26,7 +26,7 @@ class KiloViewController: UIViewController {
         
         let conversion = uni*1093.613
         
-        txtRespuesta.text = String(conversion)
+        txtRespuesta.text = String(conversion) + " Yardas"
         
         
     }
@@ -38,7 +38,7 @@ class KiloViewController: UIViewController {
         let conversion = uni/1.609
 
         
-        txtRespuesta.text = String(conversion)
+        txtRespuesta.text = String(conversion) + " Millas"
         
         
     }

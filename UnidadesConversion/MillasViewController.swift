@@ -27,7 +27,7 @@ class MillasViewController: UIViewController {
         
         let conversion = uni*1760
         
-        txtRespuesta.text = String(conversion)
+        txtRespuesta.text = String(conversion) + " Yardas"
         
     }
     
@@ -38,7 +38,7 @@ class MillasViewController: UIViewController {
         
         let conversion = uni*1.609
         
-        txtRespuesta.text = String(conversion)
+        txtRespuesta.text = String(conversion) + " Kilometros"
         
     }
     
