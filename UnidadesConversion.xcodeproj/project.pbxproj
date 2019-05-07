@@ -13,6 +13,9 @@
 		556AFF2D22822842002EDDE3 /* UnidadesConversion.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 556AFF2B22822842002EDDE3 /* UnidadesConversion.xcdatamodeld */; };
 		556AFF2F22822842002EDDE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 556AFF2E22822842002EDDE3 /* Assets.xcassets */; };
 		556AFF3222822842002EDDE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 556AFF3022822842002EDDE3 /* LaunchScreen.storyboard */; };
+		556AFF3A228236C3002EDDE3 /* MillasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556AFF39228236C3002EDDE3 /* MillasViewController.swift */; };
+		556AFF3C22823ADD002EDDE3 /* YardasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556AFF3B22823ADD002EDDE3 /* YardasViewController.swift */; };
+		556AFF3E22823E1D002EDDE3 /* KiloViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556AFF3D22823E1D002EDDE3 /* KiloViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		556AFF2E22822842002EDDE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		556AFF3122822842002EDDE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		556AFF3322822842002EDDE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		556AFF39228236C3002EDDE3 /* MillasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MillasViewController.swift; sourceTree = "<group>"; };
+		556AFF3B22823ADD002EDDE3 /* YardasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YardasViewController.swift; sourceTree = "<group>"; };
+		556AFF3D22823E1D002EDDE3 /* KiloViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KiloViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,9 @@
 				556AFF2422822842002EDDE3 /* AppDelegate.swift */,
 				556AFF2622822842002EDDE3 /* ViewController.swift */,
 				556AFF2822822842002EDDE3 /* Main.storyboard */,
+				556AFF3D22823E1D002EDDE3 /* KiloViewController.swift */,
+				556AFF3B22823ADD002EDDE3 /* YardasViewController.swift */,
+				556AFF39228236C3002EDDE3 /* MillasViewController.swift */,
 				556AFF2E22822842002EDDE3 /* Assets.xcassets */,
 				556AFF3022822842002EDDE3 /* LaunchScreen.storyboard */,
 				556AFF3322822842002EDDE3 /* Info.plist */,
@@ -141,7 +150,10 @@
 			files = (
 				556AFF2D22822842002EDDE3 /* UnidadesConversion.xcdatamodeld in Sources */,
 				556AFF2722822842002EDDE3 /* ViewController.swift in Sources */,
+				556AFF3C22823ADD002EDDE3 /* YardasViewController.swift in Sources */,
+				556AFF3A228236C3002EDDE3 /* MillasViewController.swift in Sources */,
 				556AFF2522822842002EDDE3 /* AppDelegate.swift in Sources */,
+				556AFF3E22823E1D002EDDE3 /* KiloViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
